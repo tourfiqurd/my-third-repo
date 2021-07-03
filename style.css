@@ -1,0 +1,45 @@
+.main {
+    background-color: darkcyan;
+    padding: 10px;
+    border: 10px solid darkseagreen;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.main h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main p span {
+    color: darkorange;
+    font-size: 20px;
+    margin-right: 2px;
+    font-weight: 600;
+
+}
+
+.main p {
+    color: darkkhaki;
+    font-size: 20px;
+    margin-right: 2px;
+    font-weight: 600;
+
+}
+
+/* .second {
+    float: left;
+} */
+
+.tird {
+    float: left;
+}
+
+.main::after {
+    display: table;
+    content: '';
+    clear: both;
+}
